@@ -1,6 +1,6 @@
 name: Local Docker CI/CD
 
-# Пайплайн запускается при каждом пуше в ветку тестовый файл main
+# Пайплайн запускается при каждом пуше в ветку тестовый файл 1234 main
 on:
   push:
     branches: [ "main" ]
@@ -27,3 +27,4 @@ jobs:
         }
         # Запускаем новый контейнер на порту 3000
         docker run -d --name my-running-app -p 3000:3000 my-local-app:latest
+        
