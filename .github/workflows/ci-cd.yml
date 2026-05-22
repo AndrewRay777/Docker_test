@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    # Указываем, что запускать нужно именно на вашем домашнем ПК
+    # Указываем, что запускать нужно именно на вашем домашнем ПК test
     runs-on: [self-hosted, Windows, label-1]
 
     steps:
