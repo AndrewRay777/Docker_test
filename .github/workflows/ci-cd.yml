@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-deploy:
     # Указываем, что запускать нужно именно на вашем домашнем ПК
-    runs-on: [self-hosted]
+    runs-on: [self-hosted, Windows, label-1]
 
     steps:
     - name: Checkout code
